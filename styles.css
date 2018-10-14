@@ -17,11 +17,11 @@ h3 {
   background:whitesmoke;
 }
 
-.box{
+.row{
     background: whitesmoke;
     padding: 10px;
 }
 
-.box h1{
+.row h3{
     color:dodgerblue;
 }
