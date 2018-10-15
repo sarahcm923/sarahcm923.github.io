@@ -22,14 +22,14 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: lightgrey;
+    color: dodgerblue;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color:dodgerblue;
-    color: lightgray;
+    color: white;
 }
 
 /*Format paragraphs */
