@@ -104,3 +104,9 @@ body {
 hr{
     border-color: lightgray;
 }
+
+.home-img{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
