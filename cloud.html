@@ -1,0 +1,51 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+     <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div class="navbar">
+            <a href="https://sarahcm923.github.io/">Home</a>
+            <a href="#news">Data</a>
+            <a href="/comparisons">Comparisons</a>
+            <div class="dropdown">
+              <button class="dropbtn">Plots 
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-content">
+                    <a href="/temp">Temperature</a>
+                    <a class="active" href="/cloud">Cloudiness</a>
+                    <a href="/humidity">Humidity</a>
+                    <a href="/wind">Wind Speed</a>
+              </div>
+            </div> 
+          </div>
+  <div class="container">
+  <div class="row">
+      <h1></h1>
+  </div>
+  <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+            <h3>Cloudiness vs. Latitude - Analysis</h3>
+          <hr>
+          </div>
+          <!--Second of Two Columns-->
+          <div class="col-md-offset-1 col-md-5">
+              <img src="Resources/assets/images/Fig3.png" alt="Temp" style="width:450px">
+              <br><br>
+          </div>
+          <div class="col-md-5">
+              <p>The scatter of cloudiness vs. latitude appears to be rather homogeneous, which implies there is no correlation between the two.</p>
+              <p>Interestingly, we see a much higher population of datapoints north of the equator. This can be explained by the population asymmetry across the globe.</p>
+          </div>
+</div> 
+</body>
+</html>

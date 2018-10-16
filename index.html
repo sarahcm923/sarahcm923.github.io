@@ -12,28 +12,43 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="https://sarahcm923.github.io/">Home</a>
-        <a href="#news">Plots</a>
-        <a href="#contact">Comparison</a>
-        <a href="#about">Data</a>
-      </div>
-  </div>
+      <div class="navbar">
+            <a class="active" href="https://sarahcm923.github.io/">Home</a>
+            <a href="#news">Data</a>
+            <a href="/comparisons">Comparisons</a>
+            <div class="dropdown">
+              <button class="dropbtn">Plots 
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-content">
+                <a href="/temp">Temperature</a>
+                <a href="/cloud">Cloudiness</a>
+                <a href="/humidity">Humidity</a>
+                <a href="/wind">Wind Speed</a>
+              </div>
+            </div> 
+          </div>
   <div class="container">
   <div class="row">
+      <h1></h1>
   </div>
     <div class="row">
           <div class="col-md-offset-1 col-md-6">
               <h3>Overview</h3>
-            <hr>
-            <h5>Blah Blah Blah</h5>
+            <hr color="black">
+            <p>We used API's in this exercise to analyze how weather patterns change as you move away from the equator. We used the OpenWeatherMap API to gather data on over 500 cities worldwide.</p>
+            <p>Once the data was collected, we used Python and Matplotlib to plot several different comparisons of weather vs. latitude, namely cloudiness, temperature, wind speed, and humidity. You can use this site to analyze the source data, visualizations and conclusions.</p>
             </div>
+
             <!--Second of Two Columns-->
-            <div class="col-md-4">
-                <h3>Title</h3>
+            <div class="col-md-offset-1 col-md-3">
+                <h3>Visualization Preview</h3>
                 <hr>
-                <h5>Blah Blah Blah</h5>
+                <img src="Resources/assets/images/Fig1.png" alt="Temp" style="width:200px">
+                <img src="Resources/assets/images/Fig2.png" alt="Humidity" style="width:200px">
+                <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" style="width:200px">
+                <img src="Resources/assets/images/Fig4.png" alt="Wind Speed" style="width:200px">
             </div>
-  </div>
+  </div> 
 </body>
 </html>
