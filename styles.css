@@ -74,7 +74,12 @@ body {
   }
 
   /*Highlight current page*/
-  .active{
+  a.active{
+    background-color: whitesmoke;
+    color: dodgerblue;
+  }
+
+  .dropbtn.active{
     background-color: whitesmoke;
     color: dodgerblue;
   }
