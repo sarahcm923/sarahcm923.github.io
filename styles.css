@@ -5,7 +5,6 @@ body {
 
 /* Navbar container */
 .navbar {
-    overflow: hidden;
     background-color:dodgerblue;
     font-family: Arial;
   }
@@ -24,7 +23,6 @@ body {
   /* The dropdown container */
   .dropdown {
     float: left;
-    overflow: hidden;
   }
   
   /* Dropdown button */
